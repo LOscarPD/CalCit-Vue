@@ -1,9 +1,9 @@
 <script setup>
-
+import Tarjeta from '../components/Tarjeta.vue'
 </script>
 
 <template>
-<h1>a</h1>
+    <Tarjeta titulo="Calculadora de Servicios"/>
 </template>
 
 <style scoped>
