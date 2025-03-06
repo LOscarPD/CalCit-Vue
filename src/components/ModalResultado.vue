@@ -6,7 +6,7 @@ const emit = defineEmits(['cerrarModal'])
 </script>
 
 <template>
-  <div v-if="props.modal_IsActive" id="resultado_modal" class="modal is-active">
+	<div v-if="props.modal_IsActive" id="resultado_modal" class="modal is-active">
 		<div class="modal-background" @click="emit('cerrarModal')"></div>
 		<div class="modal-card">
 			<header class="modal-card-head">
@@ -26,14 +26,14 @@ const emit = defineEmits(['cerrarModal'])
 							</tr>
 						</thead>
 						<tbody id="resultado_tabla">
-              <tr>
-                <td>Tecnologico</td>
-                <td>Aplicacion</td>
-                <td>3</td>
-                <td>$1,500</td>
-                <td>$12,870</td>
-              </tr>
-            </tbody>
+				<tr>
+				<td>Microblading</td>
+				<td>Retoque 3</td>
+				<td>3</td>
+				<td>$1,500</td>
+				<td>$12,870</td>
+				</tr>
+			</tbody>
 						<tfoot>
 							<tr>
 								<th colspan="4" class="has-text-right">Total</th>
@@ -52,7 +52,7 @@ const emit = defineEmits(['cerrarModal'])
 
 <style scoped>
 .modal-card{
-  width: 91%;
+	width: 91%;
 }
 
 @media screen and (min-width: 700px) {
@@ -64,26 +64,26 @@ const emit = defineEmits(['cerrarModal'])
 }
 
 table {
-  font-size: 14px;
+	font-size: 13px;
 }
 
 .aceptar_modal{
-  color: white;
+	color: white;
 }
 
 .modal-card-head{
-  padding: 2vh;
+	padding: 2vh;
 }
 
 .modal-card-body{
-  padding: 1vw;
+	padding: 1vw;
 }
 
 .modal-card-foot{
-  padding: 0;
+	padding: 0;
 }
 
 .aceptar_modal{
-  border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
 }
 </style>

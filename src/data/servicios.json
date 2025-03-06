@@ -1,0 +1,92 @@
+[
+    {
+        "tipo": "pestañas",
+        "servicio": "clasicas",
+        "precio": 450,
+        "retoques": [280, 380]
+    },
+    {
+        "tipo": "pestañas",
+        "servicio": "holy",
+        "precio": 630,
+        "retoques": [400, 500]
+    },
+    {
+        "tipo": "pestañas",
+        "servicio": "tecnologico",
+        "precio": 550,
+        "retoques": [350, 450]
+    },
+    {
+        "tipo": "pestañas",
+        "servicio": "brown",
+        "precio": 450,
+        "retoques": [280, 380]
+    },
+    {
+        "tipo": "pestañas",
+        "servicio": "hibridas",
+        "precio": 800,
+        "retoques": [480, 580]
+    },
+    {
+        "tipo": "pestañas",
+        "servicio": "foxy",
+        "precio": 550,
+        "retoques": [300, 400]
+    },
+    {
+        "tipo": "pestañas",
+        "servicio": "volumen",
+        "precio": 1000,
+        "retoques": [500, 600]
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "planchado",
+        "precio": 250,
+        "retoques": []
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "depilacion",
+        "precio": 100,
+        "retoques": []
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "diseño",
+        "precio": 50,
+        "retoques": []
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "henna",
+        "precio": 100,
+        "retoques": []
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "paquete 1",
+        "precio": 330,
+        "retoques": []
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "paquete 2",
+        "precio": 400,
+        "retoques": []
+    },
+    {
+        "tipo": "cejas",
+        "servicio": "microblading",
+        "precio": 1500,
+        "retoques": [700]
+    },
+    {
+        "tipo": "labios",
+        "servicio": "hidralips",
+        "precio": 450,
+        "retoques": []
+    }
+]
